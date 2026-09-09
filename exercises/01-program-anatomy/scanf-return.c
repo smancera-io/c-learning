@@ -12,5 +12,6 @@ int main () {
     int return_value = scanf("%d", &num);
     /* Print scanf return value to distinguish situations with exit success or exit failure in reading process*/
     printf("The return value is %d after reading the %d number", return_value, num);
+    /* Use 'stdlib.h' to use descriptiving messages */
     return EXIT_SUCCESS;
 }
