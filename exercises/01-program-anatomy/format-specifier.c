@@ -11,7 +11,8 @@ int main () {
     /* Ask for the values to save using standard output */
     printf("Please enter your name, age and grade separated by a space: ");
     /* Standard input used to read values entered by a user */
-    scanf("%s %d %f", &name, &age, &grade);
+    /* Use the variable name of an array allows moving +1, use &name allows moving +sizeOf */
+    scanf("%s %d %f", name, &age, &grade); 
     /* Use format specifiers with lenght determined */
     printf("Confirm values registered (%s, %.5d, %.2f)", name, age, grade);
     /* Use 'stdlib.h' to use descriptiving messages */
