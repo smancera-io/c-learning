@@ -1,2 +1,0 @@
-#include <stdio.h> /* Using <> indicates the compiler to look for the library in standard 'C' libraries */
-#include "library.h" /* Using "" indicates the compiler to look for the library firstly in the current folder and if it isn't found look in 'C' libraries*/
