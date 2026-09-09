@@ -11,6 +11,8 @@ int main () {
     printf("Please enter a random number: ");
     /* Save the input value in the num variable */
     scanf("%d", &num);
+    /* Solution to delete buffer bug */
+    while (getchar() != '\n');
     /* Ask for another value to experience buffer '\n' bug and skip input */
     printf("Do you want to confirm your input? [Y/N]: ");
     /* Normal instruction to read normal value */
