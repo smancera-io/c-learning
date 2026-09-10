@@ -17,6 +17,6 @@ int main () {
     printf("Do you want to confirm your input? [Y/N]: ");
     /* Normal instruction to read normal value */
     scanf("%c", &answer);
-    /* Use 'stdlib.h' to use descriptiving messages */
+    /* Use 'stdlib.h' to use descriptive messages */
     return EXIT_SUCCESS;
 }

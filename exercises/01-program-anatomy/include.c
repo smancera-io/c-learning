@@ -2,6 +2,7 @@
 #include "library.h" /* We use quotation marks to indicate an own library in our folder */
 #include "library.h"
 #include <stdio.h>   /* We use angle brackets to indicate it is a system library */
+#include <stdlib.h>
 
 /* Entry point to indicate where the program starts */
 int main () {
@@ -15,4 +16,6 @@ int main () {
     int result = sum(a, b);
     /* Print with standard output the final result */
     printf("The result is %d", result);
+    /* Use 'stdlib.h' to use descriptive messages */
+    return EXIT_SUCCESS;
 }

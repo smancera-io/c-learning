@@ -15,6 +15,6 @@ int main () {
     scanf("%s %d %f", name, &age, &grade); 
     /* Use format specifiers with lenght determined */
     printf("Confirm values registered (%s, %.5d, %.2f)", name, age, grade);
-    /* Use 'stdlib.h' to use descriptiving messages */
+    /* Use 'stdlib.h' to use descriptive messages */
     return EXIT_SUCCESS;
 }
